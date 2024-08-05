@@ -1,0 +1,52 @@
+/* Card.css */
+
+/* Container for the cards */
+.cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 30px;
+    gap: 5rem; /* Adjust spacing between cards */
+    justify-content:center; 
+    padding: 3rem; /* Optional padding around the container */
+}
+
+/* Style for each card */
+.card {
+    display: flex;
+    flex-direction: row; /* Stack child elements vertically */
+    width: 18rem; /* Width of the card */
+    height: 22rem; /* Height of the card */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional box shadow for better appearance */
+    border-radius: 8px; /* Optional border radius for rounded corners */
+    overflow: hidden; /* Ensures content does not overflow */
+   
+    position: relative; /* Necessary for positioning the pseudo-elements */
+    background: white; /* Default background color */
+}
+
+/* Style for card body */
+.card-body, .ti {
+    flex: 1; /* Takes up remaining space to push the button to the bottom */
+    position: relative; /* Ensure content is above the pseudo-element */
+    z-index: 1; /* Above the card background */
+    background: #FEAC5E;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #4BC0C8, #C779D0, #FEAC5E); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: rgb(248, 248, 247); /* Ensure text color is visible */
+   
+}
+.card .btn {
+    margin-bottom: 10px;
+    margin-top: auto; /* Pushes the button to the bottom of the card */
+}
+.card-text, .card-title {
+    flex: 1; 
+    position: relative; /* Ensure content is above the pseudo-element */
+    z-index:-1;
+    color:rgb(9, 9, 9);
+    text-shadow: 1px;
+    font-weight: 900;
+   
+    
+}

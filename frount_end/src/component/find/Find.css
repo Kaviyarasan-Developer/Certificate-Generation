@@ -1,0 +1,27 @@
+.find{
+    display: flex;
+   padding-left: 50px;
+    padding-top: 80px;
+    flex-direction: row;
+}
+
+.find div {
+    padding-left: 10px;
+}
+.find #find-btn{
+    padding-top:25px ;
+}
+#span{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    color:rgb(209, 70, 19);
+}
+#btn-all{
+    /* padding-left: 600px; */
+    justify-content: end;
+    text-align:right;
+    padding-top:0px;
+    padding-right: 200px;
+
+    
+}

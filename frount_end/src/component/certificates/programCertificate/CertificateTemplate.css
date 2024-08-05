@@ -1,0 +1,75 @@
+.certificate {
+  position: relative;
+  width: 800px; /* Set a fixed width for the certificate container */
+  height: 600px; /* Set a fixed height for the certificate container */
+  margin: auto;
+  overflow: hidden;
+  border: 1px solid #ccc;
+  padding-top: 10px;
+}
+
+.cimg {
+  width: 100%;
+  height: auto;
+}
+
+.name, .sdate, .edate, .grade, .corse ,.today,.sign,.cnu{
+  position: absolute;
+}
+
+.name {
+  top: 205px;
+  left: 330px;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.sdate {
+  top: 320px;
+  left: 350px;
+  font-size: 16px;
+}
+
+.edate {
+  top: 320px;
+  left: 550px;
+  font-size: 16px;
+}
+
+
+.grade {
+  top: 315px;
+  left: 240px;
+  font-size:large;
+  font-weight:bold;
+}
+
+.corse {
+  top: 270px;
+  left: 390px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.today{
+  top: 445px;
+  left: 190px;
+  font-size: 16px;
+}
+.sign{
+  top: 445px;
+  left: 500px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.cnu{
+  top: 50px;
+  left: 650px;
+  font-size: 16px;
+  font-weight: bold;
+
+}
+.cnu .cnum{
+  color: gold;
+}

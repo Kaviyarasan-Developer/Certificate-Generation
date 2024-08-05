@@ -1,0 +1,23 @@
+[
+    {
+        "name": "KAVIYARASA L",
+        "course":"JAVA FULLSTACK" ,
+        "sdate": "12/03/2024",
+        "edate": "13/12/2024",
+        "grade": "A+"
+    },
+    {
+        "name": "MANGALI J",
+        "course":"JAVA FULLSTACK" ,
+        "sdate": "12/03/2024",
+        "edate": "13/12/2024",
+        "grade": "A+"
+    },
+    {
+        "name": "MOGAN",
+        "course":"JAVA FULLSTACK",
+        "sdate": "12/03/2024",
+        "edate": "13/12/2024",
+        "grade": "B+"
+    }
+]
